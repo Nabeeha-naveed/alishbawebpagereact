@@ -1,0 +1,44 @@
+@media (max-width: 320px) {
+  .contacts{
+    font-size: 15px;
+    margin-left: 18px;
+  }
+
+  .contact-title{
+    font-size: 14px;
+    color: #9FADC2;
+  }
+
+  .contact-num{
+    color: #000;
+    text-decoration: none;
+  }
+
+  .contacts-adress{
+    width: 250px;
+  }
+
+    .iconContainer {
+      display: flex;
+    }
+  
+    .youtube-icon {
+      background: url("../../assets/youtube.png");
+    }
+  
+    .instagram-icon {
+      background: url("../../assets/instagram.png");
+    }
+  
+    .facebook-icon {
+      background: url("../../assets/facebook.png");
+    }
+  
+    .contact-icon {
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      margin: 0px 10px;
+    }
+}

@@ -15,3 +15,20 @@
       text-shadow: 0px 1px 10px silver;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+      background-color: #333333;
+      height: 60px;
+    }
+  
+    .footer-text {
+      color: white;
+      margin: 20px 10px;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 25px;
+      font-family: dancing script;
+      text-shadow: 0px 1px 10px silver;
+    }
+}

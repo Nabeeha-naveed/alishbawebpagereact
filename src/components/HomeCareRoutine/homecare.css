@@ -46,3 +46,63 @@
     background: #000;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .homecare{
+    background: #efe5db;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .homecare-left{
+    margin-top: 20px;
+  }
+
+  .homecare-right{
+    margin-top: 30px;
+  }
+
+  .careRoutineImg1{
+    margin-left: 35px;
+    margin-top: 40px;
+    width: 250px;
+    height: 500px;
+  }
+
+  .rightCareRoutineImg2{
+    margin: 20px 30px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  .careTitle{
+    font-size: 30px;
+    font-family: dancing script;
+    margin: 10px 60px;
+  }
+
+  .careParagraph{
+    font-size: 16px;
+    margin-left: 15px;
+    width: 250px;
+    text-align: center;
+  }
+  .homecare-btnContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .homeCareBtn{
+    font-size: 18px;
+    border: none;
+    color: white;
+    background: #cd825b;
+    margin: 10px;
+    padding: 6px 20px;
+  }
+
+  .homeCareBtn:hover{
+    background: #000;
+  }
+}
